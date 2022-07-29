@@ -19,7 +19,7 @@ export ARCH=arm64
 make -C $DIRPATH -f optee.mak V=0 clean
 make -C $DIRPATH -f optee.mak V=0 all
 
-demo_name="parameters"
+demo_name="storage"
 
 for name in $demo_name
 do
