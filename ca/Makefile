@@ -10,6 +10,7 @@ endif
 LDFLAGS=
 
 CA_DIRS := hello
+CA_DIRS += parameters
 
 .PHONY: all
 all: ca

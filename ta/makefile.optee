@@ -10,6 +10,7 @@ endif
 LDFLAGS=
 
 TA_DIRS := hello
+TA_DIRS += parameters
 
 .PHONY: all
 all: ta
